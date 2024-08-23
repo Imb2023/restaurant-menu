@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import MenuImage from './MenuImage';
+import MenuPDF from './MenuPDF';
+import menuSVG from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/menu.svg'; // Replace with your SVG/PNG file path
+import menuPDF from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/menu.PDF'; // Replace with your PDF file path
 
-function App() {
+const App = () => {
+  const isPDF = false; // Set to true if using a PDF file
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {isPDF ? <MenuPDF file={menuPDF} /> : <MenuImage src={menuSVG} alt="Restaurant Menu" />}
+      <MenuImage src={menuSVG} alt="Restaurant Menu" />
+      <MenuPDF file={menuPDF} />
     </div>
   );
-}
+};
 
 export default App;
