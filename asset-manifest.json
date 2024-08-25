@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/restaurant-menu/static/css/main.e6c13ad2.css",
-    "main.js": "/restaurant-menu/static/js/main.1ae84b59.js",
+    "main.css": "/restaurant-menu/static/css/main.8a9c2c05.css",
+    "main.js": "/restaurant-menu/static/js/main.3cc1b988.js",
     "static/js/453.be1943de.chunk.js": "/restaurant-menu/static/js/453.be1943de.chunk.js",
-    "static/media/Yellow and Black Minimalist Fresh Smoothie Your Story(1).jpg": "/restaurant-menu/static/media/Yellow and Black Minimalist Fresh Smoothie Your Story(1).c66d4f083e089cac33e3.jpg",
-    "static/media/Yellow and Black Minimalist Fresh Smoothie Your Story.jpg": "/restaurant-menu/static/media/Yellow and Black Minimalist Fresh Smoothie Your Story.81c96679955c2a038583.jpg",
+    "static/media/24.jpg": "/restaurant-menu/static/media/24.c66d4f083e089cac33e3.jpg",
+    "static/media/22.jpg": "/restaurant-menu/static/media/22.81c96679955c2a038583.jpg",
     "index.html": "/restaurant-menu/index.html",
-    "main.e6c13ad2.css.map": "/restaurant-menu/static/css/main.e6c13ad2.css.map",
-    "main.1ae84b59.js.map": "/restaurant-menu/static/js/main.1ae84b59.js.map",
+    "main.8a9c2c05.css.map": "/restaurant-menu/static/css/main.8a9c2c05.css.map",
+    "main.3cc1b988.js.map": "/restaurant-menu/static/js/main.3cc1b988.js.map",
     "453.be1943de.chunk.js.map": "/restaurant-menu/static/js/453.be1943de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.1ae84b59.js"
+    "static/css/main.8a9c2c05.css",
+    "static/js/main.3cc1b988.js"
   ]
 }
