@@ -8,12 +8,10 @@ const App = () => {
 
   return (
     <div>
+      <p> . </p>
+      <p> . </p>
       <ImageGallery/>
       <MenuImage src={menuPDF} alt="Restaurant Menu" />
-      <ImageGallery/>
-      <MenuImage src={menuSVG} alt="Restaurant Menu" />
-      <ImageGallery/>
-      <MenuImage src={menuSVG} alt="Restaurant Menu" />
       <ImageGallery/>
       <MenuImage src={menuSVG} alt="Restaurant Menu" />
       <ImageGallery/>
