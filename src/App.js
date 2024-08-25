@@ -1,17 +1,16 @@
 import React from 'react';
 import MenuImage from './MenuImage';
-import MenuPDF from './MenuPDF';
-import menuSVG from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/menu.svg'; // Replace with your SVG/PNG file path
-import menuPDF from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/menu.PDF'; // Replace with your PDF file path
+import menuSVG from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/Yellow and Black Minimalist Fresh Smoothie Your Story.jpg'; // Replace with your SVG/PNG file path
+import menuPDF from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/Yellow and Black Minimalist Fresh Smoothie Your Story(1).jpg'; // Replace with your PDF file path
 
 const App = () => {
   const isPDF = false; // Set to true if using a PDF file
 
   return (
     <div>
-      {isPDF ? <MenuPDF file={menuPDF} /> : <MenuImage src={menuSVG} alt="Restaurant Menu" />}
-      <MenuImage src={menuSVG} alt="Restaurant Menu" />
-      <MenuPDF file={menuPDF} />
+         <MenuImage src={menuSVG} alt="Restaurant Menu" />
+      <MenuImage src={menuPDF} alt="Restaurant Menu" />
+  
     </div>
   );
 };
