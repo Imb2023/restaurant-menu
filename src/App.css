@@ -2,15 +2,11 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   text-align: center;
-  height: 100%; /* Ensure the body takes full height */
-  overflow: hidden; /* Prevent body from scrolling */
 }
 
 .App {
   padding: 10px;
   color: white;
-  min-height: 100vh; /* Ensure .App takes full viewport height */
-  overflow-y: auto; /* Allow scrolling if content overflows */
 }
 
 

@@ -8,7 +8,6 @@ function ImageGallery() {
   const images = [
     { src: menuPDF, alt: 'Image 1' },
     { src: menuSVG, alt: 'Image 2' },
-    { src: menuPDF, alt: 'Image 3' }
   ];
 
   return (
