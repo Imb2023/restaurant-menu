@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import ImageModal from './ImageModal';
-import './ImageGallery.css';
-import mainMenu1 from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/22.jpg'; // Replace with your SVG/PNG file path
-import mainMenu2 from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/24.jpg'; // Replace with your PDF file path
-import mainMenu3 from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/22.jpg'; // Replace with your SVG/PNG file path
-import mainMenu4 from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/24.jpg'; // Replace with your PDF file path
+import './appMenu.css';
+import mainMenu1 from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/4-min.png'; // Replace with your SVG/PNG file path
+import mainMenu2 from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/3-min.png'; // Replace with your PDF file path
+import mainMenu3 from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/2-min.png'; // Replace with your SVG/PNG file path
+import mainMenu4 from 'C:/Users/visiblyankerd/Desktop/GITHUB/restaurant-menu/src/assets/1-min.png'; // Replace with your PDF file path
 
 
-function ImageGallery() {
+function AppMenu() {
   
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
@@ -45,4 +45,4 @@ function ImageGallery() {
   );
 }
 
-export default ImageGallery;
+export default AppMenu;
