@@ -27,7 +27,7 @@ function AppMenu() {
     setSelectedImage(null);
   };
   return (
-    <div className="image-gallery">
+    <div className="image-gallery" style={{ BackgroundColor: ""}}>
       {main.map((image, index) => (
         <div key={index} className="image-container" onClick={() => openModal(image)}>
           <img src={image.src} alt={image.alt} />

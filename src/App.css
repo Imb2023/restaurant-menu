@@ -1,13 +1,81 @@
+:root{
+  /* 1. Classic Neutral
+
+  Primary: #2C3E50 (Dark Blue)
+  Secondary: #ECF0F1 (Light Gray)
+  Accent: #E74C3C (Red)
+  Background: #FFFFFF (White)
+  Text: #34495E (Dark Gray)
+
+This color scheme offers a timeless look with dark blues and grays, allowing users to add their brand colors as accents.
+2. Soft Pastels
+
+  Primary: #FF6F61 (Coral)
+  Secondary: #F7CAC9 (Light Pink)
+  Accent: #92A8D1 (Soft Blue)
+  Background: #FFFFFF (White)
+  Text: #2E4053 (Deep Blue)
+
+This scheme provides a gentle, inviting feel, perfect for businesses that want a welcoming and friendly atmosphere.
+3. Modern Monochrome
+
+  Primary: #333333 (Charcoal)
+  Secondary: #CCCCCC (Light Gray)
+  Accent: #FF6B6B (Vibrant Red)
+  Background: #F0F0F0 (Off White)
+  Text: #222222 (Almost Black)
+
+A sleek, modern palette that's easy to adapt. The monochrome base allows the accent color to stand out.
+4. Earthy Tones
+
+  Primary: #6B4226 (Dark Brown)
+  Secondary: #D9B382 (Beige)
+  Accent: #A5C3AA (Soft Green)
+  Background: #F2E8D5 (Cream)
+  Text: #3A3A3A (Dark Gray)
+
+Ideal for businesses with a natural or eco-friendly focus. The earthy tones create a grounded, warm environment.
+5. Bright and Bold
+
+  Primary: #0A74DA (Bright Blue)
+  Secondary: #F4D03F (Bright Yellow)
+  Accent: #E67E22 (Orange)
+  Background: #FFFFFF (White)
+  Text: #2C3E50 (Dark Blue)
+
+For those looking for something vibrant and eye-catching, this scheme combines bold colors that still allow for customization.
+6. Minimalist
+
+  Primary: #4A4A4A (Gray)
+  Secondary: #BFBFBF (Light Gray)
+  Accent: #00A8E8 (Cyan)
+  Background: #F9F9F9 (Near White)
+  Text: #121212 (Black) 
+*/
+/* A minimalist palette with a clean, professional look. The cyan accent provides just the right amount of pop.
+Cool Blues */
+
+--Cool-Blues-Primary: #c4c4c4; /**/
+--Cool-Blues-Secondary: #00A3E0; /*(Sky Blue)*/
+--Cool-Blues-Accent: #8FC9FF; /*(Pale Blue)*/
+--Cool-Blues-Background: #E8F1F2; /*(Light Blue-Gray) */
+--Cool-Blues-Text: #3B3B3B; /*(Dark Gray)*/
+
+/* This scheme is perfect for a professional, corporate look with a calming blue palette. */
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: cadetblue;
+  background-color: var(--Cool-Blues-Primary);
 }
 
 .App {
-  padding: 10px;
-  color: white;
+  padding: 20px;
+  margin: 20px;
+  color: var(--Cool-Blues-Secondary);
 }
 
 
